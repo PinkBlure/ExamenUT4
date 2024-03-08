@@ -17,4 +17,12 @@ public class Perro {
     private void anadirAño() {
         this.edad = this.edad + 1;
     }
+
+    private int pago() {
+        if (this.raza == "Caniche") {
+            return 10;
+        } else {
+            return 100;
+        }
+    }
 }
