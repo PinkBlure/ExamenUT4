@@ -13,4 +13,8 @@ public class Perro {
             this.edad = edad;
         }
     }
+
+    private void anadirAño() {
+        this.edad = this.edad + 1;
+    }
 }
